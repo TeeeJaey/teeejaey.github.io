@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
 	var boardImgNmbr = 0;
-	var boardImgPath = "images/board" + boardImgNmbr +".JPG";
+	var boardImgPath = "images/board" + boardImgNmbr +"";
 	$(".board").attr("src",boardImgPath);
 	
 	$("#startcontrols").css("display","");
@@ -207,7 +207,7 @@ $(document).ready(function()
 		$(".boardSelected").removeClass("boardSelected");
 		$(this).addClass("boardSelected");
 		boardImgNmbr = parseInt(this.id.split("_")[1]);
-		boardImgPath = "images/board" + boardImgNmbr +".JPG";
+		boardImgPath = "images/board" + boardImgNmbr +"";
 		$(".board").attr("src",boardImgPath);
 	});
 
