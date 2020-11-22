@@ -399,13 +399,13 @@ function setupPlayers()
 	while(i<nmbrOfPlayers)
 	{
 		if(i == 0)
-			color = "Red";
+			color = "red";
 		if(i == 1)
-			color = "Green";
+			color = "green";
 		if(i == 2)
-			color = "Blue";
+			color = "blue";
 		if(i == 3)
-			color = "Yellow";
+			color = "yellow";
 		
 		players.push(new Player(color));
 		i+=1;
