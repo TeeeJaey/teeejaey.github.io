@@ -395,7 +395,7 @@ function setupPlayers()
 	nmbrOfPlayers = $("input[name='nmbrOfPlayers']:checked").val();
 	
 	var i = 0;
-	var color = "Red";
+	var color = "red";
 	while(i<nmbrOfPlayers)
 	{
 		if(i == 0)
@@ -415,15 +415,15 @@ function setupPlayers()
 	
 	if(nmbrOfPlayers < 4)
 	{
-		$("#YellowCoin").remove();
-		$("#YellowData").remove();
+		$("#yellowCoin").remove();
+		$("#yellowData").remove();
 		$(".yellowTradeSelector").remove();
 	}
 
 	if(nmbrOfPlayers < 3)
 	{
-		$("#BlueCoin").remove();
-		$("#BlueData").remove();
+		$("#blueCoin").remove();
+		$("#blueData").remove();
 		$(".blueTradeSelector").remove();
 	}
 	

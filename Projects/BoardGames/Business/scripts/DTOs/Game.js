@@ -114,15 +114,15 @@ class Game
 		
 			if(nmbrOfPlayers < 4)
 			{
-				$("#YellowCoin").remove();
-				$("#YellowData").remove();
+				$("#yellowCoin").remove();
+				$("#yellowData").remove();
 				$(".yellowTradeSelector").remove();
 			}
 	
 			if(nmbrOfPlayers < 3)
 			{
-				$("#BlueCoin").remove();
-				$("#BlueData").remove();
+				$("#blueCoin").remove();
+				$("#blueData").remove();
 				$(".blueTradeSelector").remove();
 			}
 			
