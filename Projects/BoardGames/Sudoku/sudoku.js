@@ -1,3 +1,6 @@
+
+const apiURL = "http://www.cs.utep.edu/cheon/ws/sudoku/new/?size=9&level=1";
+
 var gameOver = false;
 
 const boardSetter = [ 	[1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9],
@@ -154,6 +157,7 @@ class Game
 		
 		return tempBoard;
 	}
+	
 	generateNewBoard()
 	{
 	/*
