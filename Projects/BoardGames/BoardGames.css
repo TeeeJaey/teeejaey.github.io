@@ -114,9 +114,9 @@ body
         width: 90%;
     }
     #searchInput {
-        width: 85%;
+        width: 75vw;
     }
     #searchForm {
-        width: 100%;
+        width: 85vw;
     }
 }
