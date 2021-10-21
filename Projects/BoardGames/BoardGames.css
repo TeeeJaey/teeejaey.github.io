@@ -5,16 +5,16 @@ body
 .flex-center {
     display: flex;
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
 }
 .flex-navigation {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex:1 1 400px;
     background-color: #222;
     width: 100%;
     margin: 0px;
+    margin-bottom: 25px !important;
     justify-content: space-between;
     min-height: 55px;
 }
