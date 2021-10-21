@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MobileSite</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+<style>
+		body{
+			background-color:white;
+			font-family: Arial, Helvetica;
+			margin-bottom:10px;
+		}
+		#header{
+			position: fixed;
+			top: 0px;
+			left:0px;
+			width: 103.5%;
+			height: 148px;
+			background-image: linear-gradient(248deg, #ff17ee, #01e7b7), linear-gradient(#000000, #000000);
+		    overflow: hidden;
+			text-align: center;
+			z-index:2;
+		}
+		
+		.avatar {
+			margin-top:20px;
+		}
+		.avatar img {
+			width: 72px;
+			height: 72px;
+			border: solid 2px rgba(255, 255, 255, 0.5);
+			border-radius: 50%;
+		}
+
+		#name {
+			font-size: 17px;
+			letter-spacing: -0.2px;
+			text-align: center;
+			color: white;
+			}  
+
+		.menu {
+			width: 103%;
+			margin-top:148px;
+			margin-left:-7px;
+		}
+		a{
+			text-decoration: none;
+		}
+		#byme, .menu a {
+			color: black;
+			display: block;
+			padding: 12px;
+			font-size: 14px;
+			opacity:0.8;
+			border-top: 0.5px ridge;
+			border-color: #b3b3b3;
+		}
+		#space{
+			background: #38b9c3;
+			display: block;
+			padding: 1px;
+			font-size: 14px;
+			opacity:0.8;
+			border-top: 0.5px ridge;
+			border-color: #b3b3b3;
+		}
+		.menu a:hover {
+			background-color: #eee;
+		}	
+		.menu a:active {
+			background-color: #eee;
+		}
+		#back{
+			position:fixed;
+			top:15px;
+			left:15px;
+			color:white;
+			font-size:30px;
+		}
+
+		#camico{
+			position:relative;
+			top:-30px;
+			left:-30px;
+			font-size:30px;
+		}
+		#brushico{
+			position:relative;
+			top:-30px;
+			left:30px;
+			font-size:30px;
+		}
+		.menu .fa{
+			font-size:20px;
+			opacity:0.5;
+			z-index:-2;
+		}
+		.menu a span{
+			margin-left:20px;
+		}
+	</style>
+	
+	<script>
+	</script>
+
+	<body>
+		<div id="header">
+				<a href="#" id="back"> <i class="fa">&#xf104;</i> </a>
+				<div class="avatar">
+					<a href="../index.html" id="camico"><i style="color:white" class="fa">&#xf030;</i></a>
+					<a href="#" id="profile"><img alt="" src="https://pi.tedcdn.com/r/pf.tedcdn.com/images/playlists/stefan_sagmeister_playlists.jpg?quality=89&w=500"></a>
+					<a href="#" id="brushico"><i style="color:white" class="fa">&#xf1fc;</i></a>
+				</div>
+			<a href="#"><span id="name"> Stefan Sagmeister </span></a>
+		</div>
+	
+		<div class="menu">
+			<div id="space"></div>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf01c;</i><span>Inbox </span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf005;</i><span>Starred </span></a>
+			<div id="space"></div>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf016;</i><span>Drafts</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf1d8;</i><span>Sent</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf187;</i><span>Archive</span></a>
+			<div id="space"></div>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa fa-rotate-180"> &#xf0a0;</i><span>Junk</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf014;</i><span>Trash</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff; margin-left:50px;" class="fa"> &#xf114;</i><span>Untitled Folder</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff; margin-left:50px;" class="fa"> &#xf114;</i><span>Spam</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf114;</i><span>Clutter</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf114;</i><span>Design Resources</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf013;</i><span>Settings</span></a>
+			<a href="#"><i style="position:relative;left:95%;" class="fa"> &#xf105; </i><i style="color:#007aff;" class="fa"> &#xf08b;</i><span>Sign Out</span></a>
+		</div>
+		<div id="byme" style="text-align:center;">Developed by Tejas M. Jadhav</div>
+	</body>
+</html>
