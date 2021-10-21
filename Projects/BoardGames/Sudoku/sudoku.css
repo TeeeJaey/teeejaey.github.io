@@ -83,7 +83,7 @@ body
 	width: 100px;
 }
 
-#btnStartGame, #btnResetGame
+#btnStartGame, #btnResetGame, #btnNewGame
 {
 	font-size: 22px;
 	width: 48%;
@@ -139,7 +139,7 @@ body
 	{
 		left : 5%;
 	}
-	#btnStartGame, #btnResetGame
+	#btnStartGame, #btnResetGame, #btnNewGame
 	{
 		font-size: 15px;
 		width: 48%;
