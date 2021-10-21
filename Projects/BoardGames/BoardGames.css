@@ -82,24 +82,13 @@ body
     text-decoration: none;
 }
 
-	
-@media (max-width: 768px) 
-{
-    #desktopNav
-    {
-        display: none;
-    }
-    #mobileNav
-    {
-        display: block;
-    }
-}
-
 @media (max-width: 565px) 
 {
     .searchLink
     {
-        font-size: 25px;
         width: 90%;
+    }
+    #searchInput {
+        width:80%;
     }
 }

@@ -399,16 +399,15 @@ body
 	
 	#btnTrade
 	{
-		top: 850px;
+		top: 70vh;
 		right : 0%;
 	}
 
 	#btnLogs
 	{
-	
 		font-size: 30px;
 		position : absolute;
-		top: 760px;
+		top: 80vh;
 		right : 0%;
 		border-radius: 10%;
 	}
