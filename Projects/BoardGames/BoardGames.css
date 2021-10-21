@@ -1,7 +1,40 @@
 body
 {
     background-color: #333;
-    background-image: "images/boardGames.jpg";
+}
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.flex-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1 1 400px;
+    background-color: #222;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-between;
+    min-height: 55px;
+}
+
+.flex-navigation > #searchForm {
+    margin: 12px;
+    float: right;
+}
+
+.flex-navigation > div > a,
+.flex-navigation > div > i {
+    font-size: 22px;
+    margin: 12px;
+    text-decoration:none;
+    color:rgb(256,256,256,0.8);
+}
+.flex-navigation a:hover,
+.flex-navigation a:active {
+    text-decoration:none;
+    color:white;
 }
 
 .backgroundImage
@@ -10,16 +43,8 @@ body
     margin-top:-20px;
     width:100%;
     z-index: -5;
-    min-height: 80%;
+    min-height: 90%;
 }
-#desktopNav
-{
-    display: block;
-}
-#mobileNav
-{
-    display: none;
-}	
 
 .game-list {
     display: flex;
@@ -87,8 +112,5 @@ body
     .searchLink
     {
         width: 90%;
-    }
-    #searchInput {
-        width:80%;
     }
 }
