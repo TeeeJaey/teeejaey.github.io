@@ -4,8 +4,9 @@
     flex-wrap: wrap;
     background-color: #222;
     width: 100%;
-    margin:0px;
+    margin: 0px;
     justify-content: space-between;
+    min-height: 55px;
 }
 
 .flex-navigation a ,
