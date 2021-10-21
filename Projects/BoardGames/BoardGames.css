@@ -113,4 +113,10 @@ body
     {
         width: 90%;
     }
+    #searchInput {
+        width: 85%;
+    }
+    #searchForm {
+        width: 100%;
+    }
 }
