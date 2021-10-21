@@ -510,6 +510,7 @@ class Game
 				prevCell.isSelected = false;
 			}
 		}
+		this.autoSaveGame();
 	}
 	
 	resetCurrGame()
@@ -525,4 +526,34 @@ class Game
 		this.refreshUI();
 	}
 
+	autoSaveGame() {
+		this.selectedCellID = selectedCellID;
+		localStorage.boardgame_sudoku = JSON.stringify(this);
+	}
+
+	autoLoadGame() 
+	{
+		try
+		{
+			if(!localStorage.boardgame_sudoku || localStorage.boardgame_sudoku == null) 
+				return false;
+	
+			let loadedgame = JSON.parse(localStorage.boardgame_sudoku);
+			game = new Game();
+
+			game.difficulty = loadedgame.difficulty;
+			game.difficultyText = loadedgame.difficultyText;
+			game.boardData = loadedgame.boardData;
+			game.fullBoard = loadedgame.fullBoard;
+			selectedCellID = loadedgame.selectedCellID;
+			
+			mainContentVue.controls = 0;
+			return true;
+		}
+		catch(e)
+		{
+			console.log("Exception" , e);
+			return false;
+		}
+	}
 }

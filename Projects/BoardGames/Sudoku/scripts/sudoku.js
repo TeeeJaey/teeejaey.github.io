@@ -114,6 +114,8 @@ $(document).ready(function()
 			controls : -1
         }
 	}); 
+	if(game.autoLoadGame())
+		mainContentVue.controls = 0;
 	
 	game.refreshUI();
 
@@ -216,6 +218,7 @@ $(document).ready(function()
 			return;
 		checkNumberKey(parseInt(this.value));
 	});
+
     $(document.body).on('click',".numPadClearCell", function()
     {
 		if(gameOver)
@@ -223,7 +226,6 @@ $(document).ready(function()
 		checkNumberKey(parseInt(this.value));
 	});
 	
-
 	$(document.body).on('click',"#btnStartGame", function()
     {
 		if(gameOver)
@@ -233,6 +235,13 @@ $(document).ready(function()
 		game.refreshUI();
 		mainContentVue.controls = 0;
 	});
+
+	$(document.body).on('click',"#btnNewGame", function()
+    {
+		localStorage.boardgame_sudoku = undefined
+		document.location.reload(true)
+	});
+
 	$(document.body).on('click',"#btnResetGame", function()
     {
 		game.resetCurrGame();
