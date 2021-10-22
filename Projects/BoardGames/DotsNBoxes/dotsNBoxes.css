@@ -72,22 +72,17 @@ td
 	font-size: 20px;
 }
 
-.redHover:hover
+.redHover:hover,
+.redHover:active
 {
     cursor: pointer;
     background-color: red;
 }
-.redHover:active
-{
-    background-color:  red;
-}
-.blueHover:hover
-{
-    cursor: pointer;
-    background-color: blue;
-}
+
+.blueHover:hover,
 .blueHover:active
 {
+    cursor: pointer;
     background-color: blue;
 }
 

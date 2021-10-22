@@ -15,6 +15,13 @@ body
 	left :10%;
 }
 
+.game-btns
+{
+	margin-top:20px;
+	font-size: 22px;
+	width: 48%;
+} 
+
 .coin
 {
 	position: absolute;
@@ -81,35 +88,6 @@ body
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	margin-left: -100px;
-	background-color: #f9c5bd;
-	width: 360px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-	cursor: pointer;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-.dropdownImages
-{
-	padding: 15px;
-	width : 180px;
-	height : 180px;
-}
-.dropdownImages:hover
-{
-	background-color: green;
-}
-.boardSelected
-{
-	background-color: green;
 }
 .btn-info
 {
@@ -182,4 +160,9 @@ body
 		cursor: pointer;
 	}
 
+	.game-btns
+	{
+		font-size: 15px;
+		width: 48%;
+	}
 }

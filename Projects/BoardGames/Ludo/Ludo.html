@@ -1,3 +1,4 @@
+
 <html>
 	<head>
 		<title>	Ludo </title>
@@ -28,8 +29,7 @@
 				
 			<div id="theBoard">
 				<img src="images/board.png" class="board" >
-			<!--	<div class="circle" v-for="x in game.board" v-bind:style="{top: x.dTopVal, left: x.dLeftVal}"  > {{ x.index }} </div>
-			-->
+		
 				<img src="images/red.png" id="red_0" class="coin" >
 				<img src="images/red.png" id="red_1" class="coin" >
 				<img src="images/red.png" id="red_2" class="coin" >
@@ -53,7 +53,8 @@
 			
 			<div id="allControls" >
 				
-				<div id="startcontrols"  v-if="game.gameStatus == -1"> Number Of Players
+				<div id="startcontrols"  v-if="game.gameStatus == -1"> 
+					<span style="color:white">Number Of Players</span>
 					<br>
 					<div class="btn-group btn-group-toggle" data-toggle="buttons">
 						<label class="btn btn-info active">
@@ -67,7 +68,7 @@
 						</label>
 					</div>
 					<hr>
-					<button id="start" class="btn btn-default" > Start game </button>
+					<button id="btnStartGame" class="btn btn-default game-btns" > Start game </button>
 				</div>
 				
 				<div id="gameControls"  v-if="game.gameStatus == 0"> 
@@ -76,13 +77,14 @@
 					<div id="theDice">
 						<img src="images/dice1.png" class="dice" >
 					</div>
+					<button id="btnGetNewGame" class="btn btn-default game-btns" > Start New game </button>
 				</div>
 
 
 				<div id="endControls" v-if="game.gameStatus == 1"> 
 					<h3 id="endInstruct" v-for="(color,i) in game.endList" v-bind:style="{color: color}"  > {{i+1}} : {{ color.toUpperCase() }} </h3>
 					<hr>
-					<button id="restart" class="btn btn-secondary" onclick="document.location.reload(true)"> Play again </button>
+					<button id="btnPlayAgain" class="btn btn-default game-btns" > Play again </button>
 				</div>
 
 			</div>

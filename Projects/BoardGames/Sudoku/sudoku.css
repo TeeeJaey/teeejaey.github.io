@@ -83,7 +83,7 @@ body
 	width: 100px;
 }
 
-#btnStartGame, #btnResetGame, #btnNewGame
+.game-btns
 {
 	font-size: 22px;
 	width: 48%;
@@ -124,6 +124,7 @@ body
 		width: 40px;
 		height: 40px;
 	}
+
 	.controls , .startControls
 	{
 		position : absolute;
@@ -131,15 +132,18 @@ body
 		top: 480px;
 		width: 360px;
 	}
+	
 	.startControls
 	{
 		top: 300px;
 	}
+	
 	#theBoard
 	{
 		left : 5%;
 	}
-	#btnStartGame, #btnResetGame, #btnNewGame
+
+	.game-btns
 	{
 		font-size: 15px;
 		width: 48%;
