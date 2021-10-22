@@ -484,9 +484,12 @@ class Game
             }
 
             $('.coin').css({"display":"" });
+            $('.board').css({"display":""});
+
             game.removeAllHighlights();
             if(game.waitCoinSelection)
                 game.players[game.currPlayer].checkPlay()
+                
 			return true;
 		}
 		catch(e)

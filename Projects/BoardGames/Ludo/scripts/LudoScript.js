@@ -44,6 +44,7 @@ $(document).ready(function()
         }
 	}); 
 
+	$('.board').css({"display":"none"});
 	$('.coin').css({"display":"none"});
 
 	if(game.autoLoadGame())
@@ -62,6 +63,7 @@ $(document).ready(function()
 		
     $(document.body).on('click',"#btnStartGame", function() {
 		delete localStorage.boardgame_ludo;
+		$('.board').css({"display":""});
 		game.setupPlayers();
 		game.gameStatus=0;
 	}); 
