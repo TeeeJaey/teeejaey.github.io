@@ -99,21 +99,21 @@ function importNavbar(htmlName, displayName)
 					<i class="fa fa-angle-right"  ></i>
 				</div>
 				
-				<div class="dropdown" style="position:unset;">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: 22px;" > 
-					`+displayName+` <span class="caret"></span>
+				<div class="dropdown" style="margin:10px; position:unset;">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+						`+displayName+` <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" style="left:10%; top:50px; width:80vw">
-						<li><a href="../Minesweeper/Minesweeper.html" style="font-size: 22px;" >MineSweeper</a></li>
-						<li><a href="../SnakeNLadder/SnakeLadder.html" style="font-size: 22px;">Snake & Ladder</a></li>
-						<li><a href="../Solitaire/Solitaire.html" style="font-size: 22px;">Solitaire</a></li>
-						<li><a href="../Connect4/Connect4.html" style="font-size: 22px;">Connect 4</a></li>
-						<li><a href="../Business/Business.html" style="font-size: 22px;">Business</a></li>
-						<li><a href="../Sudoku/sudoku.html" style="font-size: 22px;">Sudoku</a></li>
-						<li><a href="../DotsNBoxes/dotsNBoxes.html" style="font-size: 22px;">Dots & Boxes</a></li>
-						<li><a href="../DealOrNoDeal/DealNoDeal.html" style="font-size: 22px;">Deal Or NoDeal</a></li>
-						<li><a href="../Ludo/Ludo.html" style="font-size: 22px;">Ludo</a></li>
-						<li><a href="../Tetris/tetris.html" style="font-size: 22px;">Tetris</a></li>
+						<li><a href="../Minesweeper/Minesweeper.html"  >MineSweeper</a></li>
+						<li><a href="../SnakeNLadder/SnakeLadder.html" >Snake & Ladder</a></li>
+						<li><a href="../Solitaire/Solitaire.html" >Solitaire</a></li>
+						<li><a href="../Connect4/Connect4.html" >Connect 4</a></li>
+						<li><a href="../Business/Business.html" >Business</a></li>
+						<li><a href="../Sudoku/sudoku.html" >Sudoku</a></li>
+						<li><a href="../DotsNBoxes/dotsNBoxes.html" >Dots & Boxes</a></li>
+						<li><a href="../DealOrNoDeal/DealNoDeal.html" >Deal Or NoDeal</a></li>
+						<li><a href="../Ludo/Ludo.html" >Ludo</a></li>
+						<li><a href="../Tetris/tetris.html" >Tetris</a></li>
 					</ul>
 				</div>
 			</div>
