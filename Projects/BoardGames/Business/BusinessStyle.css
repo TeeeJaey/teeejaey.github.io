@@ -239,7 +239,7 @@ body
 {
 	font-size: 30px;
 	position : absolute;
-	top: 420px;
+	top: 80vh;
 	right : 0%;
     border-radius: 10%;
 }
@@ -305,7 +305,7 @@ body
 {
 	font-size: 30px;
 	position : absolute;
-	top: 300px;
+	top: 70vh;
 	right : 0%;
     border-radius: 10%;
 }
@@ -387,7 +387,7 @@ body
 	top : -95px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1285px) {
 
 	#allControls
 	{
@@ -396,20 +396,19 @@ body
 		left : 10%;
 	}
 
+	#btnMenu
+	{
+		top: 700px;
+	}
 	
 	#btnTrade
 	{
-		top: 70vh;
-		right : 0%;
+		top: 800px;
 	}
 
 	#btnLogs
 	{
-		font-size: 30px;
-		position : absolute;
-		top: 80vh;
-		right : 0%;
-		border-radius: 10%;
+		top: 900px;
 	}
 
 }
