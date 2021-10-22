@@ -24,6 +24,13 @@ table
     margin: auto;
 }
 
+.instruct
+{
+	background-color : #ff8b94;
+	padding : 15px;
+	font-size: 25px;
+	font-weight: bold;
+}
 
 #theBoard
 {
@@ -73,6 +80,12 @@ button:active
 		left : 3%;
         margin: 20px 0px;
 	}
+	.instruct
+	{
+		padding : 10px;
+		font-size: 20px;
+		font-weight: bold;
+	}
 }
 
 @media (max-width: 550px) 
@@ -95,7 +108,7 @@ button:active
 	#allControls
 	{
 		position : absolute;
-		top: 550px;
+		top: 450px;
 		width: 360px;
 		left : 5%;
         margin: 20px 0px;
