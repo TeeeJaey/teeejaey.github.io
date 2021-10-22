@@ -114,6 +114,7 @@ $(document).ready(function()
 			controls : -1
         }
 	}); 
+	
 	if(game.autoLoadGame())
 		mainContentVue.controls = 0;
 	
@@ -205,7 +206,8 @@ $(document).ready(function()
 		
 		if(btnClicked < 0)
 			return;
-
+		
+		e.preventDefault();
 		if(btnClicked < 10)
 			checkNumberKey(btnClicked);
 		else

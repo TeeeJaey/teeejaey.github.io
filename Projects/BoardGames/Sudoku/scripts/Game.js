@@ -18,20 +18,17 @@ class Game
 		{
 			case 0:
 				this.difficultyText = "Easy";
-				var probGetter = new ProblemGetter();
-				this.boardData = probGetter.getEasyProblem();
+				this.boardData = ProblemGetter.getEasyProblem();
 				break;
 
 			case 1:
 				this.difficultyText = "Medium";
-				var probGetter = new ProblemGetter();
-				this.boardData = probGetter.getMediumProblem();
+				this.boardData = ProblemGetter.getMediumProblem();
 				break;
 
 			case 2:
 				this.difficultyText = "Hard";
-				var probGetter = new ProblemGetter();
-				this.boardData = probGetter.getHardProblem();
+				this.boardData = ProblemGetter.getHardProblem();
 				break;
 
 		}
