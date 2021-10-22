@@ -1,3 +1,17 @@
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+	background-color: #1f0303;
+}
+
 body
 {	background-color : #fff5d7;
 	text-align:center;
@@ -130,6 +144,13 @@ body
 		top: 200px;
 	}
 
+	.instruct
+	{
+		background-color : #fff5d7;
+		padding : 10px;
+		font-size: 20px;
+		font-weight: bold;
+	}
 	#instruct, #endInstruct
 	{
 		background-color : #fff5d7;
@@ -144,13 +165,6 @@ body
 		width : 150px;
 		height : 150px;
 		cursor: pointer;
-	}
-	.instruct
-	{
-		background-color : #fff5d7;
-		padding : 10px;
-		font-size: 20px;
-		font-weight: bold;
 	}
   }
   
