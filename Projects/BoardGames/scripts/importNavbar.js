@@ -29,7 +29,7 @@ function importNavbar(htmlName, displayName)
 				.flex-navigation > div > i ,
 				.flex-navigation .dropdown {
 					font-size: 22px;
-					margin: 12px;
+					margin: 10px;
 					text-decoration:none;
 					color:rgb(256,256,256,0.8);
 				}

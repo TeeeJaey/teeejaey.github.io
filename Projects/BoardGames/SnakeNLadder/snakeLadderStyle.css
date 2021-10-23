@@ -44,9 +44,9 @@ body
 	font-size: 22px;
 	position : absolute;
 	top: 100px;
-	left : 55%;
-	width:	500px;
-	padding:20px;
+	left : 60%;
+	width:	400px;
+	padding: 20px;
 }
 .startControls
 {
@@ -75,13 +75,15 @@ body
 #theDice, .dice
 {
 	margin:auto;
-	width : 200px;
-	height : 200px;
+	width : 150px;
+	height : 150px;
 	cursor: pointer;
 }
 
 
-.dropdown {
+.board-chooser {
+	background-color : #fff5d7;
+	width: 100%;
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
@@ -90,7 +92,7 @@ body
 .dropdown-content {
 	display: none;
 	position: absolute;
-	margin-left: -100px;
+	margin-left: 50px;
 	background-color: #f9c5bd;
 	width: 360px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -98,7 +100,7 @@ body
 	cursor: pointer;
 }
 
-.dropdown:hover .dropdown-content {
+.board-chooser:hover .dropdown-content {
 	display: block;
 }
 .dropdownImages
@@ -107,10 +109,7 @@ body
 	width : 180px;
 	height : 180px;
 }
-.dropdownImages:hover
-{
-	background-color: green;
-}
+.dropdownImages:hover,
 .boardSelected
 {
 	background-color: green;
@@ -129,11 +128,22 @@ body
 	margin-top:20px;
 	font-size: 22px;
 	width: 48%;
-} 
+}
 
+.btn-group {
+	width:100%;
+	display: flex;
+	justify-content: space-evenly;
+}
 .btnDiff
 {
-	width: 100px;
+	font-size: 20px;;
+	width:30%;
+}
+.btnDiff.active {
+	pointer-events:none;
+	background-color: rgba(255,245,215, 0.8);
+	border:3px solid Green;
 }
 
 @media (max-width: 1220px) {
@@ -141,7 +151,7 @@ body
 	.controls , .startControls
 	{
 		position : absolute;
-		top: 650px;
+		top: 720px;
 		left : 10%;
 		width: 500px;
 		font-size: 20px;
@@ -199,6 +209,7 @@ body
 	
 	.startControls
 	{
+		width: 90%;
 		top: 100px;
 	}
 	
@@ -206,5 +217,8 @@ body
 	{
 		font-size: 15px;
 		width: 48%;
+	}
+	.dropdown-content {
+		margin-left:-20px;
 	}
   }

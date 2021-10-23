@@ -42,7 +42,37 @@ body
 	height : 45px;
 } 
 
- 
+.instruct
+{
+	background-color : #fff5d7;
+	padding : 15px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.game-btns
+{
+	margin-top:20px;
+	font-size: 22px;
+	width: 48%;
+}
+
+.btn-group {
+	width:100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.btnDiff
+{
+	font-size: 20px;;
+	width:30%;
+}
+.btnDiff.active {
+	pointer-events:none;
+	background-color: rgba(255,245,215, 0.8);
+	border:3px solid Green;
+}
+
 .swal2-popup {
     font-size: 1.6rem !important;
 }
@@ -86,14 +116,6 @@ body
 	font-size: 20px;
 }
 
-.btn-info
-{
-	background-color: #f9c5bd;
-	color : black;
-	margin : 10px;
-	font-size: 22px;
-	padding:10px 40px;
-}
 
 #allControls
 {

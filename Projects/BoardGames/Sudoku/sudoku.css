@@ -81,7 +81,7 @@ body
 .startControls
 {
 	left : 10%;
-	top: 200px;
+	top: 100px;
 }
 
 .instruct
@@ -92,16 +92,27 @@ body
 	font-weight: bold;
 }
 
-.btnDiff
-{
-	width: 100px;
-}
-
 .game-btns
 {
+	margin-top:20px;
 	font-size: 22px;
 	width: 48%;
-} 
+}
+
+.btn-group {
+	width:100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.btnDiff
+{
+	font-size: 20px;
+}
+.btnDiff.active {
+	pointer-events:none;
+	background-color: rgba(255,245,215, 0.8);
+	border:3px solid Green;
+}
 
 @media (max-width: 1200px) 
 {
@@ -115,11 +126,7 @@ body
 	}
 	.startControls
 	{
-		top: 200px;
-	}
-	.btnDiff
-	{
-		width: 80px;
+		top: 100px;
 	}
 	.instruct
 	{
@@ -149,17 +156,16 @@ body
 	
 	.startControls
 	{
-		top: 300px;
+		top: 150px;
 	}
 	
 	#theBoard
 	{
 		left : 5%;
 	}
-
+	
 	.game-btns
 	{
 		font-size: 15px;
-		width: 48%;
 	}
 } 
