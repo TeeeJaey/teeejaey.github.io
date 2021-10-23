@@ -33,14 +33,14 @@ body
 }
 
 .flex-navigation > #searchForm {
-    margin: 12px;
+    margin: 10px;
     float: right;
 }
 
 .flex-navigation > div > a,
 .flex-navigation > div > i {
     font-size: 22px;
-    margin: 12px;
+    margin: 10px;
     text-decoration:none;
     color:rgb(256,256,256,0.8);
 }
@@ -93,7 +93,7 @@ body
 {
     position: fixed;
     width: 110%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 110px);
     overflow-y:auto;
 }
 
@@ -127,9 +127,11 @@ body
         width: 90%;
     }
     #searchInput {
-        width: 75vw;
+        width: 75%;
+        font-size: 16px;
+        height: 35px;
     }
     #searchForm {
-        width: 85vw;
+        width: 60%;
     }
 }
