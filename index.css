@@ -10,8 +10,8 @@
 }
 
 .dropdown-menu {
-	right:0;
-	left: auto;
+	right: 0 !important;
+	left: auto !important;
 }
 
 .flex-navigation a ,
