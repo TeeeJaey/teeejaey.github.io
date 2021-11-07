@@ -9,6 +9,11 @@
     min-height: 55px;
 }
 
+.dropdown-menu {
+	right:0;
+	left: auto;
+}
+
 .flex-navigation a ,
 .flex-navigation .dropdown {
     margin: 12px;
