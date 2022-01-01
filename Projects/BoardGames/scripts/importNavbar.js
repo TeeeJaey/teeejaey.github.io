@@ -83,6 +83,7 @@ function importNavbar(htmlName, displayName)
 						<li><a href="../DealOrNoDeal/DealNoDeal.html" style="font-size: 22px;">Deal Or NoDeal</a></li>
 						<li><a href="../Ludo/Ludo.html" style="font-size: 22px;">Ludo</a></li>
 						<li><a href="../Tetris/tetris.html" style="font-size: 22px;">Tetris</a></li>
+						<li><a href="../Snake/snake.html" style="font-size: 22px;">Snake</a></li>
 					</ul>
 				</div>
 			</div>
@@ -114,6 +115,7 @@ function importNavbar(htmlName, displayName)
 						<li><a href="../DealOrNoDeal/DealNoDeal.html" >Deal Or NoDeal</a></li>
 						<li><a href="../Ludo/Ludo.html" >Ludo</a></li>
 						<li><a href="../Tetris/tetris.html" >Tetris</a></li>
+						<li><a href="../Snake/snake.html" >Snake</a></li>
 					</ul>
 				</div>
 			</div>
