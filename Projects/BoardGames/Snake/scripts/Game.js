@@ -5,15 +5,13 @@ const rows = 24;
 
 class Game
 { 
-	constructor()
-	{
+	constructor() {
 		this.board = this.getNewBoard();
 		this.gameOver = false;
 		this.status = -1;
 		this.score = 0;
 
 		this.snake = new Snake();
-		this.food = this.spawnFood();
 	}
 
 	moveUp = () => this.snake.direction = this.snake.direction == "D" ? "D" : "U";
@@ -22,8 +20,7 @@ class Game
 	moveRight = () => this.snake.direction = this.snake.direction == "L" ? "L" : "R";
 
 
-	getNewBoard()
-	{
+	getNewBoard() {
 		var newBoard = []
 
 		for(var i = 0 ; i < rows ; i++)
@@ -39,28 +36,38 @@ class Game
 	}
 	
 	spawnFood() {
+		let placeFood = false;
 
+		while(!placeFood) {
+			const foodRow = Math.floor(Math.random()*rows);
+			const foodCol = Math.floor(Math.random()*cols);
+			const foodCell = game.board[foodRow][foodCol];	
+			
+			if(!foodCell.isDanger && !foodCell.isSnake) {
+				placeFood = true;
+				foodCell.setFood();
+			}
+		}
 	}
 
-	getBoardCellByID(cellID)
-	{
+	getBoardCellByID(cellID) {
 		var i = cellID.split(':')[0];
 		var j = cellID.split(':')[1];
 		return game.board[i][j];
 	}
 
-	startGame()
-	{
+	resetTimer() {
 		var self = this;
+		self.spawnFood();
+		clearInterval(self.gameInterval);
 		self.gameInterval = window.setInterval(function() {
 			self.snake.move();
 			self.snake.paint();
-		}, 500)
+		}, self.snake.speed);
 	}
 
 
-	endGame()
-	{
+	endGame() {
 		clearInterval(this.gameInterval);
 		this.gameOver = true;
 		this.status = 1;

@@ -5,7 +5,7 @@ var game = new Game();
 $(document).ready(function()
 {
 	importNavbar("snake", "Snake");
-	$('#gameUnderDev').css("display","");
+	//$('#gameUnderDev').css("display","");
 	
     mainContentVue = new Vue({
         el: '#mainContent',
@@ -21,21 +21,25 @@ $(document).ready(function()
 		{ 
 			case 37: case 65 : // a and left
 			{
+				e.preventDefault();
 				game.moveLeft();
 				break;
 			}
 			case 39:  case 68: // d and right
 			{
+				e.preventDefault();
 				game.moveRight();
 				break;
 			}
 			case 38: case 87: // w and up
 			{
+				e.preventDefault();
 				game.moveUp();
 				break;
 			}
 			case 40: case 83: // s and down
 			{
+				e.preventDefault();
 				game.moveDown();
 				break;
 			}
@@ -46,7 +50,7 @@ $(document).ready(function()
 	$(document.body).on('click',"#start", function()
     {
 		game.status = 0;
-		game.startGame();
+		game.resetTimer();
 	});
 	 
 	$(document.body).on('click',"#btnLeft", () => game.moveLeft() );

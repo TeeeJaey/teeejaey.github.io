@@ -5,14 +5,18 @@ class Snake {
 		this.position = ["10:3","11:3","12:3"];
 		this.color = "#333";
 		this.direction = "R";
+		this.setSpeed();
 	}
+
+	setSpeed = () => this.speed = 1500/this.size;
 
 	paint() {
 		for(var i = 0 ; i < rows ; i++) {
 			for(var j = 0 ; j < cols ; j++) {
+				const cell= game.board[i][j];
 				if(this.position.includes(i+":"+j))
-					game.board[i][j].setSnake();
-				else
+					cell.setSnake();
+				else if(!cell.isDanger && !cell.isFood)
 					game.board[i][j].setClear();
 			}
 		}
@@ -54,8 +58,14 @@ class Snake {
 
 		if(next.isDanger || next.isSnake) game.endGame();
 				
-		if(next.isFood) this.size++;
-		else this.position = this.position.slice(1);
+		if(next.isFood) {
+			game.resetTimer();
+			this.setSpeed();
+			game.score++;
+			this.size++;
+		}
+		else 
+			this.position = this.position.slice(1);
 		
 		this.position.push(nextPos);
 	}

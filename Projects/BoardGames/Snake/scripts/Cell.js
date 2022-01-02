@@ -6,13 +6,10 @@ class Cell
         this.id = i+':'+j;
         this.x = i;
         this.y = j;
+        this.currColor = "#bbb";
         
         this.isSnake = false;
         this.isFood = false;
-        this.isDanger = false;
-        
-        this.initColor = "#bbb";
-        this.currColor = "#bbb";
         
         return;
     }
@@ -24,22 +21,16 @@ class Cell
         this.currColor = "#bbb";
     }
     
-    setDanger = () => {
-        this.isFood = false;
-        this.isDanger = true;
-        this.currColor = "red";
-    }
-    
     setFood = () => {
         this.isDanger = false;
         this.isFood = true;
-        this.currColor = "green";
+        this.currColor = "red";
     }
     
     setSnake = () => {
         this.isDanger = false;
         this.isFood = false;
-        this.isFood = true;
+        this.isSnake = true;
         this.currColor = "#333";
     }
 }
