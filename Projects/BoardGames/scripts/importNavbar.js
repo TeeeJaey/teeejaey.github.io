@@ -3,6 +3,11 @@ function importNavbar(htmlName, displayName)
 {
 	var navHTML =  `
 			<style>	
+				#navbar {
+					position: relative;
+					z-index:900;
+				}
+
 				.flex-center {
 					display: flex;
 					justify-content: space-between;
@@ -33,33 +38,20 @@ function importNavbar(htmlName, displayName)
 					text-decoration:none;
 					color:rgb(256,256,256,0.8);
 				}
+				.flex-navigation .dropdown .dropdown-menu {
+					left:auto;
+					right:0;
+				}
+
 				.flex-navigation a:hover,
 				.flex-navigation a:active {
 					text-decoration:none;
 					color:white;
 				}	
-				#desktopNav
-				{
-					display: flex;
-				}
-				#mobileNav
-				{
-					display: none;
-				}		
-				@media (max-width: 768px) 
-				{
-					#desktopNav
-					{
-						display: none;
-					}
-					#mobileNav
-					{
-						display: flex;
-					}
-				}
+
 			</style>
 
-			<div class="flex-navigation" id="desktopNav">
+			<div class="flex-navigation hidden-sm hidden-xs">
 				<div class="flex-center" >
 					<a href="https://teeejaey.github.io/">Home</a>
 					<i class="fa fa-angle-right" style="padding-top:2px" ></i>
@@ -88,7 +80,7 @@ function importNavbar(htmlName, displayName)
 				</div>
 			</div>
 
-			<div class="flex-navigation" id="mobileNav">
+			<div class="flex-navigation hidden-lg hidden-md">
 				<div class="flex-center" >
 					<a href="https://teeejaey.github.io/" > 
 						<i class="fas fa-home"></i>

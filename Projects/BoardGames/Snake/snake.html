@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>	Tetris </title>
+		<title>	Snake </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,20 +23,20 @@
 	</head>
 	
 	<body>
-
 		<div id="navbar"> </div>
-		<img id="gameUnderDev" src="../images/underDev.png" style="position:fixed; left:10%;  width:80%; z-index: 999; margin:auto; display:none " />
-		
-		<div id="mainContent">
 
+		<div id="gameUnderDev" style="display:none" >
+			<div id="overlay" ></div>
+			<img id="img" src="../images/underDev.png" />
+		</div>
+	
+		<div id="mainContent">
 			<table id="theBoard"  >
 				<tr v-for="row in game.board">
-
 					<td v-for="x in row" class="cell" v-bind:style="{backgroundColor: x.currColor}"> </td>
-					
 				</tr>
 			</table>
-			
+	
 			<div class="controls" v-if="game.status==-1 ">
 				<button id="start" class="btn btn-default" > Start game </button> 
 			</div>
@@ -51,7 +51,7 @@
 					<button class="btn btn-default ctrlBtn" type="button" id="btnRight" > <i class="fa fa-angle-right"  ></i> </button>
 				</div>
 				<hr>
-				
+	
 				<div id="instruct" class="row" > 
 					<span class="col-3">
 						<div > Your Score : {{game.score}} </div>
@@ -63,15 +63,14 @@
 				<hr>
 				<button id="restart" class="btn btn-default" onclick="document.location.reload(true)"> New game </button>
 			</div>
+
 			<div class="controls" v-if="game.status==1" style=" font-weight:bold" >
 				GAME OVER
 				<div style="color:white; " > Your Score : {{game.score}} </div>
 				<hr>
 				<button id="restart" class="btn btn-default" onclick="document.location.reload(true)"> New game </button>
 			</div>
-
 		</div>
 
 	</body>
-	
 </html>
