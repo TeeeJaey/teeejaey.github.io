@@ -128,4 +128,10 @@ body {
         font-size: 20px;
         font-weight: bold;
     }
+    .footer {
+        font-size: 16px;
+    }
+    .footerLinks {
+        font-size: 20px;
+    }
 }
