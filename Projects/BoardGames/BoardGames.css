@@ -60,6 +60,7 @@ body {
     flex-wrap: wrap;
     width: 85%;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .footer {
