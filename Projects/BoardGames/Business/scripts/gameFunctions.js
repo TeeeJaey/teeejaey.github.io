@@ -280,6 +280,7 @@ function refreshGameUI() {
         $("#" + players[i].color + "MoneyValue")[0].innerHTML = rupeeSym + " " + players[i].money;
 
         if (players[i].money < 1) $("#" + players[i].color + "MoneyValue").css("color", "red");
+        else if (darkTheme) $("#" + players[i].color + "MoneyValue").css("color", "white");
         else $("#" + players[i].color + "MoneyValue").css("color", "black");
 
         i += 1;
@@ -336,8 +337,28 @@ function endGame() {
     return;
 }
 
+function setTheme() {
+    const theme = window.localStorage.getItem("boardgame_theme");
+    if (theme && theme == "dark") {
+        $("body").addClass("dark");
+        darkTheme = true;
+    } else {
+        $("body").removeClass("dark");
+        darkTheme = false;
+    }
+}
+
 $(document).ready(function () {
     importNavbar("Business", "Business");
+    setTheme();
+    $(document.body).on("click", "#changeTheme", () => {
+        if (window.localStorage.boardgame_theme && window.localStorage.boardgame_theme == "dark") {
+            window.localStorage.boardgame_theme = "light";
+        } else window.localStorage.boardgame_theme = "dark";
+
+        setTheme();
+    });
+
     //#region "Initial displays"
 
     $("#menu").css("display", "none");
