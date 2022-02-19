@@ -237,13 +237,6 @@ body {
     cursor: pointer;
 }
 
-#btnLogs {
-    font-size: 30px;
-    position: absolute;
-    top: 80vh;
-    right: 0%;
-    border-radius: 10%;
-}
 #allLogs {
     color: white;
     background-color: rgb(219, 170, 10);
@@ -293,13 +286,6 @@ body {
     width: 101px;
     margin: 10px;
     padding: 10px;
-}
-#btnTrade {
-    font-size: 30px;
-    position: absolute;
-    top: 70vh;
-    right: 0%;
-    border-radius: 10%;
 }
 
 #TradeTray {
