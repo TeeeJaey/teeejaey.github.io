@@ -206,7 +206,7 @@ function checkCell() {
                 log.performTransaction();
                 log.displayLog();
             }
-        } else {
+        } else if (!cell.isMortgaged) {
             // Show Sale Modal
             $("#imagePropertySale").attr("src", cell.cardImage);
 
