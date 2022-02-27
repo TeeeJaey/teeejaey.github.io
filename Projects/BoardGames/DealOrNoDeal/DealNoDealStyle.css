@@ -36,6 +36,7 @@ body {
 }
 
 .lostAmt {
+    box-shadow: none;
     background: #625c17;
     opacity: 80%;
 }
@@ -64,7 +65,6 @@ body {
 .caseOpening {
     position: absolute;
     top: 50px;
-    left: 25%;
     padding: 50px;
     width: 50%;
     min-width: 250px;
@@ -89,7 +89,10 @@ body.dark {
 }
 body.dark .amts {
     color: white;
-    background-color: #7a5e15;
+    background: #7a5e15;
+}
+body.dark .lostAmt {
+    background: #3d3a10;
 }
 body.dark .case {
     background: #366636;
@@ -115,7 +118,7 @@ body.dark .btn-default:hover {
 }
 body.dark .instruct {
     color: white;
-    background: #22272e;
+    background: #83353c;
 }
 /* DARK THEME -- END */
 
@@ -134,10 +137,6 @@ body.dark .instruct {
         height: 55px;
         width: 31%;
         font-size: 25px;
-    }
-
-    .caseOpening {
-        left: 15%;
     }
     .instruct {
         font-size: 20px;
