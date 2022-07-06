@@ -1,0 +1,39 @@
+{
+    "files": {
+        "main.css": "https://teeejaey.github.io/csb-5i4cd5/static/css/main.77a76bff.chunk.css",
+        "main.js": "https://teeejaey.github.io/csb-5i4cd5/static/js/main.a5146e9c.chunk.js",
+        "main.js.map": "https://teeejaey.github.io/csb-5i4cd5/static/js/main.a5146e9c.chunk.js.map",
+        "runtime-main.js": "https://teeejaey.github.io/csb-5i4cd5/static/js/runtime-main.f3c87319.js",
+        "runtime-main.js.map": "https://teeejaey.github.io/csb-5i4cd5/static/js/runtime-main.f3c87319.js.map",
+        "static/js/2.806b005d.chunk.js": "https://teeejaey.github.io/csb-5i4cd5/static/js/2.806b005d.chunk.js",
+        "static/js/2.806b005d.chunk.js.map": "https://teeejaey.github.io/csb-5i4cd5/static/js/2.806b005d.chunk.js.map",
+        "index.html": "https://teeejaey.github.io/csb-5i4cd5/index.html",
+        "precache-manifest.789a032a3d6dbbe2f827c7587f71e4d5.js": "https://teeejaey.github.io/csb-5i4cd5/precache-manifest.789a032a3d6dbbe2f827c7587f71e4d5.js",
+        "service-worker.js": "https://teeejaey.github.io/csb-5i4cd5/service-worker.js",
+        "static/css/main.77a76bff.chunk.css.map": "https://teeejaey.github.io/csb-5i4cd5/static/css/main.77a76bff.chunk.css.map",
+        "static/js/2.806b005d.chunk.js.LICENSE.txt": "https://teeejaey.github.io/csb-5i4cd5/static/js/2.806b005d.chunk.js.LICENSE.txt",
+        "static/media/BoardGames.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/BoardGames.662d6f9f.png",
+        "static/media/ChatBot.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/ChatBot.e9bd5835.png",
+        "static/media/DN.jpg": "https://teeejaey.github.io/csb-5i4cd5/static/media/DN.d42a2095.jpg",
+        "static/media/Meditation.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/Meditation.ee0c1479.png",
+        "static/media/MernPos.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/MernPos.9b205973.png",
+        "static/media/MobileMailImg.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/MobileMailImg.9a528d41.png",
+        "static/media/MovieTrailers.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/MovieTrailers.2471efe9.png",
+        "static/media/MyWay.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/MyWay.d964cc21.png",
+        "static/media/RaceIt.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/RaceIt.ceca7292.png",
+        "static/media/SendMyCell.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/SendMyCell.c0a1e607.png",
+        "static/media/SignatureVerifier.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/SignatureVerifier.7ea1077b.png",
+        "static/media/SnakeLadder.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/SnakeLadder.a4f8c787.png",
+        "static/media/btechTransparent.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/btechTransparent.9645112f.png",
+        "static/media/here.jpg": "https://teeejaey.github.io/csb-5i4cd5/static/media/here.e3a69f7b.jpg",
+        "static/media/menuBG.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/menuBG.950cb34d.png",
+        "static/media/mtechTransparent.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/mtechTransparent.4ebc9db7.png",
+        "static/media/profileTransparent.png": "https://teeejaey.github.io/csb-5i4cd5/static/media/profileTransparent.30cdab2e.png"
+    },
+    "entrypoints": [
+        "static/js/runtime-main.f3c87319.js",
+        "static/js/2.806b005d.chunk.js",
+        "static/css/main.77a76bff.chunk.css",
+        "static/js/main.a5146e9c.chunk.js"
+    ]
+}
