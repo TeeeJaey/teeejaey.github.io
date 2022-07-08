@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.06a0b447.chunk.css",
-    "main.js": "/static/js/main.cc799725.chunk.js",
-    "main.js.map": "/static/js/main.cc799725.chunk.js.map",
+    "main.css": "/static/css/main.a018a5d2.chunk.css",
+    "main.js": "/static/js/main.d07f33cc.chunk.js",
+    "main.js.map": "/static/js/main.d07f33cc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3e8af0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3e8af0c.js.map",
-    "static/js/2.b3b8f7f8.chunk.js": "/static/js/2.b3b8f7f8.chunk.js",
-    "static/js/2.b3b8f7f8.chunk.js.map": "/static/js/2.b3b8f7f8.chunk.js.map",
+    "static/js/2.b8224459.chunk.js": "/static/js/2.b8224459.chunk.js",
+    "static/js/2.b8224459.chunk.js.map": "/static/js/2.b8224459.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.286cdd373f2719e74242013a1ab0d8f0.js": "/precache-manifest.286cdd373f2719e74242013a1ab0d8f0.js",
+    "precache-manifest.5e343ea4e4eb5715b68677446bcbdd37.js": "/precache-manifest.5e343ea4e4eb5715b68677446bcbdd37.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.06a0b447.chunk.css.map": "/static/css/main.06a0b447.chunk.css.map",
-    "static/js/2.b3b8f7f8.chunk.js.LICENSE.txt": "/static/js/2.b3b8f7f8.chunk.js.LICENSE.txt",
+    "static/css/main.a018a5d2.chunk.css.map": "/static/css/main.a018a5d2.chunk.css.map",
+    "static/js/2.b8224459.chunk.js.LICENSE.txt": "/static/js/2.b8224459.chunk.js.LICENSE.txt",
     "static/media/BoardGames.png": "/static/media/BoardGames.662d6f9f.png",
     "static/media/ChatBot.png": "/static/media/ChatBot.e9bd5835.png",
     "static/media/DN.jpg": "/static/media/DN.d42a2095.jpg",
@@ -20,6 +20,7 @@
     "static/media/MobileMailImg.png": "/static/media/MobileMailImg.9a528d41.png",
     "static/media/MovieTrailers.png": "/static/media/MovieTrailers.2471efe9.png",
     "static/media/MyWay.png": "/static/media/MyWay.d964cc21.png",
+    "static/media/PortFolioImg.png": "/static/media/PortFolioImg.03a1fc5d.png",
     "static/media/RaceIt.png": "/static/media/RaceIt.ceca7292.png",
     "static/media/SendMyCell.png": "/static/media/SendMyCell.c0a1e607.png",
     "static/media/SignatureVerifier.png": "/static/media/SignatureVerifier.7ea1077b.png",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3e8af0c.js",
-    "static/js/2.b3b8f7f8.chunk.js",
-    "static/css/main.06a0b447.chunk.css",
-    "static/js/main.cc799725.chunk.js"
+    "static/js/2.b8224459.chunk.js",
+    "static/css/main.a018a5d2.chunk.css",
+    "static/js/main.d07f33cc.chunk.js"
   ]
 }
