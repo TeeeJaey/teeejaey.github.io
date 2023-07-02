@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.790d9c6f.chunk.css",
-    "main.js": "/static/js/main.f4aade8a.chunk.js",
-    "main.js.map": "/static/js/main.f4aade8a.chunk.js.map",
+    "main.js": "/static/js/main.e8dd2822.chunk.js",
+    "main.js.map": "/static/js/main.e8dd2822.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3e8af0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3e8af0c.js.map",
-    "static/js/2.2f27bfeb.chunk.js": "/static/js/2.2f27bfeb.chunk.js",
-    "static/js/2.2f27bfeb.chunk.js.map": "/static/js/2.2f27bfeb.chunk.js.map",
+    "static/js/2.d9afa6b3.chunk.js": "/static/js/2.d9afa6b3.chunk.js",
+    "static/js/2.d9afa6b3.chunk.js.map": "/static/js/2.d9afa6b3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5b5a4792f5c9b9f5dbc6d950b67beafa.js": "/precache-manifest.5b5a4792f5c9b9f5dbc6d950b67beafa.js",
+    "precache-manifest.37292b9fcaab77160e48e7dc69eace13.js": "/precache-manifest.37292b9fcaab77160e48e7dc69eace13.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.790d9c6f.chunk.css.map": "/static/css/main.790d9c6f.chunk.css.map",
-    "static/js/2.2f27bfeb.chunk.js.LICENSE.txt": "/static/js/2.2f27bfeb.chunk.js.LICENSE.txt",
+    "static/js/2.d9afa6b3.chunk.js.LICENSE.txt": "/static/js/2.d9afa6b3.chunk.js.LICENSE.txt",
     "static/media/BoardGames.png": "/static/media/BoardGames.662d6f9f.png",
     "static/media/ChatBot.png": "/static/media/ChatBot.e9bd5835.png",
     "static/media/DN.jpg": "/static/media/DN.d42a2095.jpg",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3e8af0c.js",
-    "static/js/2.2f27bfeb.chunk.js",
+    "static/js/2.d9afa6b3.chunk.js",
     "static/css/main.790d9c6f.chunk.css",
-    "static/js/main.f4aade8a.chunk.js"
+    "static/js/main.e8dd2822.chunk.js"
   ]
 }
