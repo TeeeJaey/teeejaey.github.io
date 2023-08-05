@@ -1,17 +1,17 @@
 {
     "files": {
         "main.css": "/static/css/main.790d9c6f.chunk.css",
-        "main.js": "/static/js/main.046f3e88.chunk.js",
-        "main.js.map": "/static/js/main.046f3e88.chunk.js.map",
+        "main.js": "/static/js/main.7ca68226.chunk.js",
+        "main.js.map": "/static/js/main.7ca68226.chunk.js.map",
         "runtime-main.js": "/static/js/runtime-main.c3e8af0c.js",
         "runtime-main.js.map": "/static/js/runtime-main.c3e8af0c.js.map",
-        "static/js/2.d9afa6b3.chunk.js": "/static/js/2.d9afa6b3.chunk.js",
-        "static/js/2.d9afa6b3.chunk.js.map": "/static/js/2.d9afa6b3.chunk.js.map",
+        "static/js/2.d1abf070.chunk.js": "/static/js/2.d1abf070.chunk.js",
+        "static/js/2.d1abf070.chunk.js.map": "/static/js/2.d1abf070.chunk.js.map",
         "index.html": "/index.html",
-        "precache-manifest.cf2e85c2be8b47443d4a3a96ca261c00.js": "/precache-manifest.cf2e85c2be8b47443d4a3a96ca261c00.js",
+        "precache-manifest.00902407bf8a94a2c60b1562f93bf225.js": "/precache-manifest.00902407bf8a94a2c60b1562f93bf225.js",
         "service-worker.js": "/service-worker.js",
         "static/css/main.790d9c6f.chunk.css.map": "/static/css/main.790d9c6f.chunk.css.map",
-        "static/js/2.d9afa6b3.chunk.js.LICENSE.txt": "/static/js/2.d9afa6b3.chunk.js.LICENSE.txt",
+        "static/js/2.d1abf070.chunk.js.LICENSE.txt": "/static/js/2.d1abf070.chunk.js.LICENSE.txt",
         "static/media/BoardGames.png": "/static/media/BoardGames.662d6f9f.png",
         "static/media/ChatBot.png": "/static/media/ChatBot.e9bd5835.png",
         "static/media/DN.jpg": "/static/media/DN.d42a2095.jpg",
@@ -22,6 +22,7 @@
         "static/media/MyWay.png": "/static/media/MyWay.d964cc21.png",
         "static/media/PortFolioImg.png": "/static/media/PortFolioImg.03a1fc5d.png",
         "static/media/RaceIt.png": "/static/media/RaceIt.ceca7292.png",
+        "static/media/SeaAdventures.png": "/static/media/SeaAdventures.42c2c485.png",
         "static/media/SendMyCell.png": "/static/media/SendMyCell.c0a1e607.png",
         "static/media/SignatureVerifier.png": "/static/media/SignatureVerifier.7ea1077b.png",
         "static/media/SnakeLadder.png": "/static/media/SnakeLadder.a4f8c787.png",
@@ -33,8 +34,8 @@
     },
     "entrypoints": [
         "static/js/runtime-main.c3e8af0c.js",
-        "static/js/2.d9afa6b3.chunk.js",
+        "static/js/2.d1abf070.chunk.js",
         "static/css/main.790d9c6f.chunk.css",
-        "static/js/main.046f3e88.chunk.js"
+        "static/js/main.7ca68226.chunk.js"
     ]
 }
