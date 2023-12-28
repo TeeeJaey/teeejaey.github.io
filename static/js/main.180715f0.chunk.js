@@ -506,6 +506,7 @@
                                         { className: "submarine-body" },
                                         c.a.createElement("div", { className: "window" }),
                                         c.a.createElement("div", { className: "engine" }),
+                                        c.a.createElement("div", { className: "light-source" }),
                                         c.a.createElement("div", { className: "light" }),
                                     ),
                                     c.a.createElement("div", { className: "helix" }),
@@ -786,7 +787,7 @@
                 );
             }
             a(60);
-            function I() {
+            function j() {
                 return c.a.createElement(
                     "div",
                     { id: "bubbles" },
@@ -799,11 +800,11 @@
                 );
             }
             a(61);
-            var j = a(26),
-                B = a.n(j),
+            var I = a(26),
+                B = a.n(I),
                 J = a(27),
                 A = a.n(J);
-            function O(e) {
+            function F(e) {
                 var t = e.selectedTab;
                 return (
                     Object(n.useEffect)(
@@ -925,8 +926,8 @@
                     )
                 );
             }
-            var F = a(6),
-                U =
+            var O = a(6),
+                R =
                     (a(62),
                     [
                         {
@@ -937,7 +938,7 @@
                                 { title: "HTML-CSS", points: 9 },
                                 { title: "Redux", points: 8 },
                                 { title: "Angular", points: 8 },
-                                { title: "VueJS", points: 7 },
+                                { title: "VueJS", points: 6 },
                             ],
                         },
                         {
@@ -970,7 +971,7 @@
                         },
                     ]);
             a(63);
-            function P(e) {
+            function U(e) {
                 var t = e.skill;
                 return c.a.createElement(
                     "div",
@@ -995,7 +996,7 @@
                     ),
                 );
             }
-            function R(e) {
+            function P(e) {
                 var t = e.selectedTab;
                 return (
                     Object(n.useEffect)(
@@ -1004,7 +1005,7 @@
                             if (t !== m.Skills) {
                                 document.getElementById("skills").classList.add("off");
                                 var a,
-                                    n = Object(F.a)(e);
+                                    n = Object(O.a)(e);
                                 try {
                                     for (n.s(); !(a = n.n()).done; ) {
                                         a.value.classList.add("width-0");
@@ -1018,7 +1019,7 @@
                                 document.getElementById("skills").classList.remove("off"),
                                     setTimeout(function () {
                                         var t,
-                                            a = Object(F.a)(e);
+                                            a = Object(O.a)(e);
                                         try {
                                             for (a.s(); !(t = a.n()).done; ) {
                                                 t.value.classList.remove("width-0");
@@ -1042,8 +1043,8 @@
                             c.a.createElement(
                                 "div",
                                 { className: "content-container" },
-                                U.map(function (e, t) {
-                                    return c.a.createElement(P, { key: t, skill: e });
+                                R.map(function (e, t) {
+                                    return c.a.createElement(U, { key: t, skill: e });
                                 }),
                             ),
                         ),
@@ -1425,30 +1426,7 @@
                 );
             }
             a(67);
-            function ge(e) {
-                var t = e.selectedTab;
-                return (
-                    Object(n.useEffect)(
-                        function () {
-                            t !== m.Interests
-                                ? document.getElementById("interests").classList.add("off")
-                                : document.getElementById("interests").classList.remove("off");
-                        },
-                        [t],
-                    ),
-                    c.a.createElement(
-                        c.a.Fragment,
-                        null,
-                        c.a.createElement(
-                            "div",
-                            { id: "interests", className: "main-view off" },
-                            c.a.createElement("div", { className: "header" }, "Interests"),
-                            c.a.createElement("div", { className: "content-container" }, " COMING SOON "),
-                        ),
-                    )
-                );
-            }
-            function he() {
+            function ge() {
                 var e = Object(r.l)(),
                     t = Object(n.useState)(-2),
                     a = Object(s.a)(t, 2),
@@ -1482,7 +1460,7 @@
                             },
                             c.a.createElement(C.a, null),
                         ),
-                        c.a.createElement(I, null),
+                        c.a.createElement(j, null),
                         c.a.createElement(y, {
                             showingMobileMenu: p,
                             setShowingMobileMenu: function (e) {
@@ -1509,8 +1487,8 @@
                                 }),
                             }),
                             c.a.createElement(r.a, { path: "/" + o[1], element: c.a.createElement(f, { selectedTab: i }) }),
-                            c.a.createElement(r.a, { path: "/" + o[2], element: c.a.createElement(R, { selectedTab: i }) }),
-                            c.a.createElement(r.a, { path: "/" + o[3], element: c.a.createElement(O, { selectedTab: i }) }),
+                            c.a.createElement(r.a, { path: "/" + o[2], element: c.a.createElement(P, { selectedTab: i }) }),
+                            c.a.createElement(r.a, { path: "/" + o[3], element: c.a.createElement(F, { selectedTab: i }) }),
                             c.a.createElement(r.a, {
                                 path: "/" + o[4] + "/*",
                                 element: c.a.createElement(fe, {
@@ -1521,17 +1499,29 @@
                                 }),
                             }),
                             c.a.createElement(r.a, { path: "/" + o[5], element: c.a.createElement(L, { selectedTab: i }) }),
-                            c.a.createElement(r.a, { path: "/" + o[6], element: c.a.createElement(ge, { selectedTab: i }) }),
+                            c.a.createElement(r.a, {
+                                path: "/Resume",
+                                element: c.a.createElement(he, { url: "https://drive.google.com/file/d/1gfGhRxDbSj5LKB2D0EsdT5Ja3Ley6tH8/view" }),
+                            }),
                         ),
                     )
                 );
             }
+            var he = function (e) {
+                var t = e.url;
+                return (
+                    c.a.useEffect(function () {
+                        window.location.replace(t);
+                    }, []),
+                    null
+                );
+            };
             l.a.render(
-                c.a.createElement(c.a.StrictMode, null, c.a.createElement(g.a, null, c.a.createElement(he, null))),
+                c.a.createElement(c.a.StrictMode, null, c.a.createElement(g.a, null, c.a.createElement(ge, null))),
                 document.getElementById("root"),
             );
         },
     ]),
     [[46, 1, 2]],
 ]);
-//# sourceMappingURL=main.7ca68226.chunk.js.map
+//# sourceMappingURL=main.180715f0.chunk.js.map
