@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b08242c1.chunk.css",
+    "main.css": "/static/css/main.5d150b16.chunk.css",
     "main.js": "/static/js/main.08e8e74b.chunk.js",
     "main.js.map": "/static/js/main.08e8e74b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3e8af0c.js",
@@ -8,9 +8,9 @@
     "static/js/2.c3c35231.chunk.js": "/static/js/2.c3c35231.chunk.js",
     "static/js/2.c3c35231.chunk.js.map": "/static/js/2.c3c35231.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b930ec70decbb96e8b6cfb8514bcfd1c.js": "/precache-manifest.b930ec70decbb96e8b6cfb8514bcfd1c.js",
+    "precache-manifest.b1631e29a6b0284d7f8598ad227be55f.js": "/precache-manifest.b1631e29a6b0284d7f8598ad227be55f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b08242c1.chunk.css.map": "/static/css/main.b08242c1.chunk.css.map",
+    "static/css/main.5d150b16.chunk.css.map": "/static/css/main.5d150b16.chunk.css.map",
     "static/js/2.c3c35231.chunk.js.LICENSE.txt": "/static/js/2.c3c35231.chunk.js.LICENSE.txt",
     "static/media/BoardGames.png": "/static/media/BoardGames.662d6f9f.png",
     "static/media/ChatBot.png": "/static/media/ChatBot.e9bd5835.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.c3e8af0c.js",
     "static/js/2.c3c35231.chunk.js",
-    "static/css/main.b08242c1.chunk.css",
+    "static/css/main.5d150b16.chunk.css",
     "static/js/main.08e8e74b.chunk.js"
   ]
 }
