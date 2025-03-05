@@ -201,6 +201,7 @@ a {
 }
 #contact .link {
     color: #6aafa1;
+    cursor: "pointer";
 }
 #contact .link:hover {
     color: var(--theme-blue);
@@ -1384,4 +1385,4 @@ a {
     -moz-animation: moveclouds 9s linear infinite, sideWays 3s ease-in-out infinite alternate;
     -o-animation: moveclouds 9s linear infinite, sideWays 3s ease-in-out infinite alternate;
 }
-/*# sourceMappingURL=main.5d150b16.chunk.css.map */
+/*# sourceMappingURL=main.a3017eac.chunk.css.map */
