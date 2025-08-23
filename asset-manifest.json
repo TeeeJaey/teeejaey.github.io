@@ -1,12 +1,11 @@
 {
     "files": {
         "main.css": "/static/css/main.0ca62f0e.css",
-        "main.js": "/static/js/main.16f1e209.js",
+        "main.js": "/static/js/main.c33cfa60.js",
         "static/media/menuBG.png": "/static/media/menuBG.536e7c9466c572144fd5.png",
         "static/media/mtechTransparent.png": "/static/media/mtechTransparent.7415e91ffacfa2a08f46.png",
         "static/media/RaceIt.png": "/static/media/RaceIt.2e0f05f58ec824ec23a0.png",
         "static/media/profileTransparent.png": "/static/media/profileTransparent.300a8ac55588c277645b.png",
-        "static/media/btechTransparent.png": "/static/media/btechTransparent.b7eb0229acfae912883e.png",
         "static/media/SignatureVerifier.png": "/static/media/SignatureVerifier.af518af1868f702b58a9.png",
         "static/media/PortFolioImg.png": "/static/media/PortFolioImg.7b55a8ccdc7868b85c53.png",
         "static/media/SnakeLadder.png": "/static/media/SnakeLadder.552716a2432f689d7336.png",
@@ -24,7 +23,7 @@
         "static/media/MernPos.png": "/static/media/MernPos.7db5cd2cdcf96dbe2b29.png",
         "index.html": "/index.html",
         "main.0ca62f0e.css.map": "/static/css/main.0ca62f0e.css.map",
-        "main.16f1e209.js.map": "/static/js/main.16f1e209.js.map"
+        "main.c33cfa60.js.map": "/static/js/main.c33cfa60.js.map"
     },
-    "entrypoints": ["static/css/main.0ca62f0e.css", "static/js/main.16f1e209.js"]
+    "entrypoints": ["static/css/main.0ca62f0e.css", "static/js/main.c33cfa60.js"]
 }
