@@ -13561,6 +13561,7 @@
                 { title: "HTML-CSS", points: 9 },
                 { title: "Redux", points: 8 },
                 { title: "Angular", points: 8 },
+                { title: "GraphQL Apollo client", points: 8 },
             ],
         },
         {
@@ -13568,6 +13569,7 @@
             items: [
                 { title: "NodeJS", points: 8 },
                 { title: "ExpressJS", points: 8 },
+                { title: "GraphQL Apollo server", points: 8 },
                 { title: "NextJS", points: 7 },
                 { title: "NestJS", points: 7 },
                 { title: "C#.Net", points: 6 },
@@ -13580,7 +13582,7 @@
                 { title: "MongoDB", points: 8 },
                 { title: "SQL Server", points: 8 },
                 { title: "MySQL", points: 7 },
-                { title: "Firebase / Firestore", points: 6 },
+                { title: "Firebase / Firestore", points: 7 },
             ],
         },
         {
