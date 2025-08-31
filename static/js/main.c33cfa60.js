@@ -12884,7 +12884,7 @@
                     children: "JP Morgan Chase & Co.",
                 }),
                 image: Nt,
-                techstack: ["React", "Redux", "TypeScript", "Playwright", "Ag-grid"],
+                techstack: ["React", "Redux", "TypeScript", "Playwright", "Ag-grid", "RTKQuery"],
                 time: (0, jt.jsxs)(jt.Fragment, { children: ["Since ", (0, jt.jsx)("br", {}), " Apr 2024"] }),
                 projects: [
                     {
@@ -12894,37 +12894,6 @@
                             children: "Execute SPG",
                         }),
                         content: [
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Contributed to the development and maintenance of Execute SPG, a mission-critical",
-                                    (0, jt.jsx)("span", {
-                                        className: "highlight",
-                                        children: " trading and bond bidding platform",
-                                    }),
-                                    " used by institutional clients.",
-                                ],
-                            }),
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Built and optimized React (TS), Redux with Ag-grid front-end components to ensure",
-                                    (0, jt.jsx)("span", { className: "highlight", children: " real-time updates " }),
-                                    "of bond prices, bids, and execution workflows.",
-                                ],
-                            }),
-                            (0, jt.jsx)(jt.Fragment, {
-                                children: "Wrote detailed unit tests using Jest & React Testing Library",
-                            }),
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Designed and executed ",
-                                    (0, jt.jsx)("span", { className: "highlight", children: " automation test" }),
-                                    " suites in Playwright, reducing manual testing effort and improving release reliability.",
-                                ],
-                            }),
-                            (0, jt.jsx)(jt.Fragment, {
-                                children:
-                                    "Worked closely with the teams in various locations like USA and UK to collaborate and create application",
-                            }),
                         ],
                     },
                 ],
@@ -12938,7 +12907,7 @@
                     children: "HERE Technologies",
                 }),
                 image: Et,
-                techstack: ["Angular", "React", "Redux", "TypeScript", "NodeJS", "ThreeJS"],
+                techstack: ["Angular", "React", "Redux", "TypeScript", "NodeJS", "ThreeJS", "GraphQL"],
                 time: (0, jt.jsxs)(jt.Fragment, { children: ["Jan 2022 ", (0, jt.jsx)("br", {}), "- Mar 2023"] }),
                 projects: [
                     {
@@ -12948,16 +12917,6 @@
                             children: "HD Live Map Viewer",
                         }),
                         content: [
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Built and maintained a ",
-                                    (0, jt.jsx)("span", { className: "highlight", children: "3D map visualization" }),
-                                    " platform using Angular, Three.js, Node.js, and Selenium, enabling real-time rendering of high-definition road and location data.",
-                                ],
-                            }),
-                            (0, jt.jsx)(jt.Fragment, {
-                                children: "Wrote automation tests with Selenium, reducing regression issues.",
-                            }),
                         ],
                     },
                     {
@@ -12967,24 +12926,6 @@
                             children: "Here We Go web",
                         }),
                         content: [
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Contributed to HERE\u2019s ",
-                                    (0, jt.jsx)("span", { className: "highlight", children: "consumer navigation" }),
-                                    " web app, developing and enhancing front-end features using React, TypeScript, and Redux",
-                                ],
-                            }),
-                            (0, jt.jsx)(jt.Fragment, {
-                                children:
-                                    "Implemented state management and API integrations to deliver reliable routing, traffic, and navigation data in real time.",
-                            }),
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Collaborated with ",
-                                    (0, jt.jsx)("span", { className: "highlight", children: "global teams" }),
-                                    " in Germany to roll out features and UI improvements for millions of users.",
-                                ],
-                            }),
                         ],
                     },
                 ],
@@ -13008,27 +12949,6 @@
                             children: "Vynamic POS & Self-Checkout",
                         }),
                         content: [
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Contributed to the development of applications for",
-                                    (0, jt.jsx)("span", { className: "highlight", children: " large retail clients" }),
-                                    ", integrating Angular UI with C#.NET backend services.",
-                                ],
-                            }),
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Worked closely with ",
-                                    (0, jt.jsx)("span", { className: "highlight", children: "international clients" }),
-                                    " to establish requirement specifications and to solve critical software bugs",
-                                ],
-                            }),
-                            (0, jt.jsxs)(jt.Fragment, {
-                                children: [
-                                    "Worked closely with the ",
-                                    (0, jt.jsx)("span", { className: "highlight", children: "global core R/D teams" }),
-                                    " in Poland",
-                                ],
-                            }),
                         ],
                     },
                 ],
