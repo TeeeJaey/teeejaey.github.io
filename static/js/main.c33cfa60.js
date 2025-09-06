@@ -13378,8 +13378,8 @@
                                         children: (0, jt.jsx)("span", {
                                             className: "link",
                                             onClick: () =>
-                                                window.open("https://www.linkedin.com/in/tejas-jadhav-765043110/"),
-                                            children: "tejas-jadhav-765043110",
+                                                window.open("https://www.linkedin.com/in/tjadhav95/"),
+                                            children: "tjadhav95",
                                         }),
                                     }),
                                 ],
