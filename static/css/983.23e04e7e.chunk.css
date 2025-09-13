@@ -1,0 +1,133 @@
+.edex-span {
+    border-right: 1px solid var(--theme-red);
+    color: #a6b8b3;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+    min-width: 160px;
+    padding: 10px 10px 10px 0;
+    position: relative;
+    text-align: right;
+    width: 160px;
+}
+.edex-span:after {
+    background-color: var(--theme-red);
+    border: 2px solid var(--theme-red);
+    border-radius: 50%;
+    content: " ";
+    display: block;
+    height: 8px;
+    position: absolute;
+    right: -6px;
+    top: 16px;
+    width: 8px;
+}
+.edex-value {
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.3em;
+    padding: 10px;
+    width: 50%;
+}
+.edex-title {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.edex-company {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.edex-techstack {
+    color: var(--theme-red);
+    display: flex;
+    flex-flow: wrap;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.edex-company::marker {
+    margin: 0;
+}
+.edex-content {
+    color: #b2c8c4;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 0;
+    padding-left: 15px;
+}
+.edex-content li {
+    padding-top: 5px;
+}
+.edex-image-mobile > img,
+.edex-image > img {
+    margin-bottom: 20px;
+    width: 20vw;
+}
+.edex-image-mobile {
+    display: none;
+}
+@media (max-width: 1200px) {
+    .edex-value {
+        width: 100%;
+    }
+    .edex-image {
+        display: none;
+    }
+    .edex-image-mobile {
+        display: block;
+        width: 100%;
+    }
+    .edex-image-mobile > img {
+        height: auto;
+        max-width: 350px;
+        width: 100%;
+    }
+}
+@media (max-width: 860px) {
+    .edex-span {
+        font-size: 14px;
+        min-width: 72px;
+        width: 72px;
+    }
+    .edex-title {
+        font-size: 22px;
+    }
+    .edex-company {
+        font-size: 15px;
+    }
+    .edex-techstack {
+        font-size: 12px;
+    }
+}
+#experience.off {
+    margin-left: -120vw;
+}
+#experience .content-container {
+    margin-top: 10px;
+    max-height: 65vh;
+    overflow-y: auto;
+}
+.total-exp {
+    background: #5c0d20;
+    border-radius: 15px;
+    color: #c8dfd8;
+    font-size: 18px;
+    margin: auto;
+    padding: 5px 20px;
+    width: -webkit-fit-content;
+    width: fit-content;
+}
+.techstack-item {
+    border: 1px solid #d1334d;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 2px 8px;
+}
+#experience .edex-projectname {
+    margin-top: 5px;
+    padding: 5px 0;
+}
+/*# sourceMappingURL=983.23e04e7e.chunk.css.map*/

@@ -1,0 +1,33 @@
+{
+    "version": 3,
+    "file": "static/js/950.4bcd01f4.chunk.js",
+    "mappings": "kPAEA,QCIO,SAAkBA,GAAmB,IAAlB,YAAEC,GAAaD,EACrC,MAAME,GAAOC,EAAAA,EAAAA,IAAWF,EAAaG,EAAAA,GAAaC,WAElD,OACIC,EAAAA,EAAAA,MAAA,OAAKC,GAAIL,EAAMM,UAAU,gBAAeC,SAAA,EACpCC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,SAAQC,SAAC,eAExBH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,oBAAmBC,SAAA,EAC9BH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,mBAAkBC,SAAA,EAC7BH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,YAAWC,SAAA,CAAC,aACdC,EAAAA,EAAAA,KAAA,SAAM,iBAEnBJ,EAAAA,EAAAA,MAAA,OAAKE,UAAU,aAAYC,SAAA,EACvBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,aAAYC,SAAC,iDAC5BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOG,QAASA,IAAMC,OAAOC,KAAK,kCAAkCJ,SAAC,qDAIzFH,EAAAA,EAAAA,MAAA,MAAIE,UAAU,eAAcC,SAAA,EACxBH,EAAAA,EAAAA,MAAA,MAAAG,SAAA,CAAI,8BAC0BC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,YAAWC,SAAC,aAE1DH,EAAAA,EAAAA,MAAA,MAAAG,SAAA,CAAI,kDACgD,KAChDC,EAAAA,EAAAA,KAAA,QACIF,UAAU,OACVG,QAASA,IACLC,OAAOC,KAAK,0DACfJ,SACJ,8CAKTC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,oBAAmBC,UAC9BC,EAAAA,EAAAA,KAAA,OAAKI,IAAKC,EAAUC,IAAI,mBAGhCN,EAAAA,EAAAA,KAAA,OAAKF,UAAU,aAAYC,UACvBC,EAAAA,EAAAA,KAAA,OAAKI,IAAKC,EAAUC,IAAI,mBAGhCV,EAAAA,EAAAA,MAAA,OAAKE,UAAU,mBAAkBC,SAAA,EAC7BH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,YAAWC,SAAA,CAAC,aACdC,EAAAA,EAAAA,KAAA,SAAM,iBAEnBJ,EAAAA,EAAAA,MAAA,OAAKE,UAAU,aAAYC,SAAA,EACvBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,aAAYC,SAAC,mDAC5BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOG,QAASA,IAAMC,OAAOC,KAAK,kCAAkCJ,SAAC,+DASjH,C",
+    "sources": [
+        "components/pages/Education/index.js",
+        "components/pages/Education/Education.js"
+    ],
+    "sourcesContent": [
+        "import { Education } from \"./Education\";\r\n\r\nexport default Education;\r\n",
+        "import React from \"react\";\r\nimport \"../Edu-Exp.css\";\r\nimport \"./Education.css\";\r\nimport mtechImg from \"../../../images/mtechTransparent.png\";\r\nimport { useVisible, menuBarIndex } from \"../../../helpers\";\r\n\r\nexport function Education({ selectedTab }) {\r\n    const page = useVisible(selectedTab, menuBarIndex.Education);\r\n\r\n    return (\r\n        <div id={page} className=\"main-view off\">\r\n            <div className=\"header\">Education</div>\r\n\r\n            <div className=\"content-container\">\r\n                <div className=\"d-flex edex-item\">\r\n                    <div className=\"edex-span\">\r\n                        Jun 2017 <br />- May 2019\r\n                    </div>\r\n                    <div className=\"edex-value\">\r\n                        <div className=\"edex-title\">Master of Technology - Computer Engineering</div>\r\n                        <div className=\"edex-company\">\r\n                            <span className=\"link\" onClick={() => window.open(\"https://engineering.nmims.edu/\")}>\r\n                                Narsee Monjee Institute of Management Studies\r\n                            </span>\r\n                        </div>\r\n                        <ul className=\"edex-content\">\r\n                            <li>\r\n                                Passed out with a CGPA of <span className=\"highlight\">3.32</span>\r\n                            </li>\r\n                            <li>\r\n                                Wrote & Published a Technical Research paper on{\" \"}\r\n                                <span\r\n                                    className=\"link\"\r\n                                    onClick={() =>\r\n                                        window.open(\"https://www.irjet.net/archives/V6/i4/IRJET-V6I4130.pdf\")\r\n                                    }\r\n                                >\r\n                                    Handwritten Signature Verification\r\n                                </span>\r\n                            </li>\r\n                        </ul>\r\n                        <div className=\"edex-image-mobile\">\r\n                            <img src={mtechImg} alt=\"mtechImg\" />\r\n                        </div>\r\n                    </div>\r\n                    <div className=\"edex-image\">\r\n                        <img src={mtechImg} alt=\"mtechImg\" />\r\n                    </div>\r\n                </div>\r\n                <div className=\"d-flex edex-item\">\r\n                    <div className=\"edex-span\">\r\n                        May 2013 <br />- Jun 2017\r\n                    </div>\r\n                    <div className=\"edex-value\">\r\n                        <div className=\"edex-title\">Bachelor of Technology - Computer Engineering</div>\r\n                        <div className=\"edex-company\">\r\n                            <span className=\"link\" onClick={() => window.open(\"https://engineering.nmims.edu/\")}>\r\n                                Narsee Monjee Institute of Management Studies\r\n                            </span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    );\r\n}\r\n"
+    ],
+    "names": [
+        "_ref",
+        "selectedTab",
+        "page",
+        "useVisible",
+        "menuBarIndex",
+        "Education",
+        "_jsxs",
+        "id",
+        "className",
+        "children",
+        "_jsx",
+        "onClick",
+        "window",
+        "open",
+        "src",
+        "mtechImg",
+        "alt"
+    ],
+    "sourceRoot": ""
+}

@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "file": "static/js/555.b4b2ea25.chunk.js",
+    "mappings": "gKAEA,QCCO,SAAiBA,GAAM,MAAHA,EACvB,OACIC,EAAAA,EAAAA,MAAA,OAAKC,GAAI,YAAaC,UAAU,YAAWC,SAAA,EACvCC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,SAAQC,SAAC,0BACxBH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,oBAAmBC,SAAA,EAC9BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,UAASC,SAAC,6FAGzBH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,UAASC,SAAA,CAAC,yBACE,KACvBC,EAAAA,EAAAA,KAACC,EAAAA,GAAI,CAACC,GAAI,IAAKJ,UAAU,OAAMC,SAAC,cAExB,IAAI,oDAMhC,C",
+    "sources": [
+        "components/pages/NotFound/index.js",
+        "components/pages/NotFound/NotFound.js"
+    ],
+    "sourcesContent": [
+        "import { NotFound } from \"./NotFound\";\r\n\r\nexport default NotFound;\r\n",
+        "import \"./NotFound.css\";\r\nimport { Link } from \"react-router-dom\";\r\n\r\nexport function NotFound({}) {\r\n    return (\r\n        <div id={\"not-found\"} className=\"main-view\">\r\n            <div className=\"header\">404 - Page not found</div>\r\n            <div className=\"content-container\">\r\n                <div className=\"content\">\r\n                    Oops! The page you are looking for does not exist. It might have been moved or deleted.\r\n                </div>\r\n                <div className=\"content\">\r\n                    You can go back to the{\" \"}\r\n                    <Link to={\"/\"} className=\"link\">\r\n                        Home Page\r\n                    </Link>{\" \"}\r\n                    or explore other sections of the website.\r\n                </div>\r\n            </div>\r\n        </div>\r\n    );\r\n}\r\n"
+    ],
+    "names": [
+        "_ref",
+        "_jsxs",
+        "id",
+        "className",
+        "children",
+        "_jsx",
+        "Link",
+        "to"
+    ],
+    "sourceRoot": ""
+}

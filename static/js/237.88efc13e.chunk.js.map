@@ -1,0 +1,37 @@
+{
+    "version": 3,
+    "file": "static/js/237.88efc13e.chunk.js",
+    "mappings": "+KAEA,QCGO,SAAgBA,GAAmB,IAAlB,YAAEC,GAAaD,EACnC,MAAME,GAAOC,EAAAA,EAAAA,IAAWF,EAAaG,EAAAA,GAAaC,SAElD,OACIC,EAAAA,EAAAA,MAAA,OAAKC,GAAIL,EAAMM,UAAU,gBAAeC,SAAA,EACpCC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,SAAQC,SAAC,aACxBH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,UAASC,SAAA,CAAC,oBAErBC,EAAAA,EAAAA,KAAA,UACAA,EAAAA,EAAAA,KAAA,OAAKF,UAAU,kBAAiBC,SAAC,sCAErCH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,+BAA8BC,SAAA,EACzCH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,SAAQC,SAAA,EACnBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,SAAC,cAC/BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAACC,EAAAA,IAAU,OAEfD,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,UAC1BC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOI,QAASA,IAAMC,OAAOC,SAASC,OAAO,8BAA8BN,SAAC,8BAMpGH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,SAAQC,SAAA,EACnBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,SAAC,gBAC/BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAACM,EAAAA,IAAU,OAEfN,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,UAC1BC,EAAAA,EAAAA,KAAA,QACIF,UAAU,OACVI,QAASA,IAAMC,OAAOI,KAAK,uDAAuDR,SACrF,iCAMTH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,SAAQC,SAAA,EACnBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,SAAC,cAC/BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAACQ,EAAAA,IAAQ,OAEbZ,EAAAA,EAAAA,MAAA,OAAKE,UAAU,gBAAeC,SAAA,EAC1BC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOI,QAASA,IAAMC,OAAOI,KAAK,+BAA+BR,SAAC,aAE1E,IAAI,IACV,KACFC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOI,QAASA,IAAMC,OAAOI,KAAK,oCAAoCR,SAAC,0BAM/FH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,SAAQC,SAAA,EACnBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,SAAC,gBAC/BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAACS,EAAAA,IAAU,OAEfT,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,UAC1BC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOI,QAASA,IAAMC,OAAOI,KAAK,2CAA2CR,SAAC,wBAMtGH,EAAAA,EAAAA,MAAA,OAAKE,UAAU,SAAQC,SAAA,EACnBC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,SAAC,iBAC/BC,EAAAA,EAAAA,KAAA,OAAKF,UAAU,eAAcC,UACzBC,EAAAA,EAAAA,KAACU,EAAAA,IAAW,OAEhBV,EAAAA,EAAAA,KAAA,OAAKF,UAAU,gBAAeC,UAC1BC,EAAAA,EAAAA,KAAA,QAAMF,UAAU,OAAOI,QAASA,IAAMC,OAAOI,KAAK,wCAAwCR,SAAC,yBAQnH,C",
+    "sources": [
+        "components/pages/Contact/index.js",
+        "components/pages/Contact/Contact.js"
+    ],
+    "sourcesContent": [
+        "import { Contact } from \"./Contact\";\r\n\r\nexport default Contact;\r\n",
+        "import React from \"react\";\r\nimport \"./Contact.css\";\r\nimport { FaEnvelope, FaLinkedin, FaFacebook, FaGithub, FaInstagram } from \"react-icons/fa\";\r\nimport { useVisible, menuBarIndex } from \"../../../helpers\";\r\n\r\nexport function Contact({ selectedTab }) {\r\n    const page = useVisible(selectedTab, menuBarIndex.Contact);\r\n\r\n    return (\r\n        <div id={page} className=\"main-view off\">\r\n            <div className=\"header\">Contact</div>\r\n            <div className=\"content\">\r\n                Have a question?\r\n                <br />\r\n                <div className=\"contact-caption\">Don't hesitate to Email me...</div>\r\n            </div>\r\n            <div className=\"contact-container d-flex-col\">\r\n                <div className=\"d-flex\">\r\n                    <div className=\"contact-label\">E-mail :</div>\r\n                    <div className=\"contact-icon\">\r\n                        <FaEnvelope />\r\n                    </div>\r\n                    <div className=\"contact-value\">\r\n                        <span className=\"link\" onClick={() => window.location.assign(\"mailto:tjadhav95@gmail.com\")}>\r\n                            tjadhav95@gmail.com\r\n                        </span>\r\n                    </div>\r\n                </div>\r\n\r\n                <div className=\"d-flex\">\r\n                    <div className=\"contact-label\">LinkedIn :</div>\r\n                    <div className=\"contact-icon\">\r\n                        <FaLinkedin />\r\n                    </div>\r\n                    <div className=\"contact-value\">\r\n                        <span\r\n                            className=\"link\"\r\n                            onClick={() => window.open(\"https://www.linkedin.com/in/tejas-jadhav-765043110/\")}\r\n                        >\r\n                            tejas-jadhav-765043110\r\n                        </span>\r\n                    </div>\r\n                </div>\r\n\r\n                <div className=\"d-flex\">\r\n                    <div className=\"contact-label\">GitHub :</div>\r\n                    <div className=\"contact-icon\">\r\n                        <FaGithub />\r\n                    </div>\r\n                    <div className=\"contact-value\">\r\n                        <span className=\"link\" onClick={() => window.open(\"https://github.com/TeeeJaey\")}>\r\n                            TeeeJaey\r\n                        </span>{\" \"}\r\n                        /{\" \"}\r\n                        <span className=\"link\" onClick={() => window.open(\"https://gist.github.com/TeeeJaey\")}>\r\n                            TeeeJaey-gists\r\n                        </span>\r\n                    </div>\r\n                </div>\r\n\r\n                <div className=\"d-flex\">\r\n                    <div className=\"contact-label\">Facebook :</div>\r\n                    <div className=\"contact-icon\">\r\n                        <FaFacebook />\r\n                    </div>\r\n                    <div className=\"contact-value\">\r\n                        <span className=\"link\" onClick={() => window.open(\"https://www.facebook.com/tejasjadhav95/\")}>\r\n                            tejasjadhav95\r\n                        </span>\r\n                    </div>\r\n                </div>\r\n\r\n                <div className=\"d-flex\">\r\n                    <div className=\"contact-label\">Instagram :</div>\r\n                    <div className=\"contact-icon\">\r\n                        <FaInstagram />\r\n                    </div>\r\n                    <div className=\"contact-value\">\r\n                        <span className=\"link\" onClick={() => window.open(\"https://www.instagram.com/teja_dhav/\")}>\r\n                            @teja_dhav\r\n                        </span>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    );\r\n}\r\n"
+    ],
+    "names": [
+        "_ref",
+        "selectedTab",
+        "page",
+        "useVisible",
+        "menuBarIndex",
+        "Contact",
+        "_jsxs",
+        "id",
+        "className",
+        "children",
+        "_jsx",
+        "FaEnvelope",
+        "onClick",
+        "window",
+        "location",
+        "assign",
+        "FaLinkedin",
+        "open",
+        "FaGithub",
+        "FaFacebook",
+        "FaInstagram"
+    ],
+    "sourceRoot": ""
+}
