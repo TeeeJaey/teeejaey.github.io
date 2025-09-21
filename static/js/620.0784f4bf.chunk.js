@@ -188,7 +188,7 @@
                                     children: [
                                         "Hi, I am ",
                                         (0, t.jsx)("span", { className: "highlight name", children: "Tejas" }),
-                                        ". You can call me Tehsu (\u30c6\u30cf\u30b9)",
+                                        ". You can call me Tesu",
                                     ],
                                 }),
                                 (0, t.jsxs)("div", {
