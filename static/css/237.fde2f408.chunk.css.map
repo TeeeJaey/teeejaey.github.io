@@ -1,13 +1,1 @@
-{
-    "version": 3,
-    "file": "static/css/237.fde2f408.chunk.css",
-    "mappings": "AAAA,SACI,QACJ,CACA,aACI,iBACJ,CACA,kBACI,cACJ,CACA,iBAEI,aAAc,CADd,cAAe,CAEf,UACJ,CACA,mBACI,cACJ,CACA,2BACI,UACJ,CACA,cAGI,YAAe,CAFf,iBAAkB,CAClB,OAEJ,CACA,eACI,aAAc,CACd,SACJ,CACA,eACI,WACJ,CACA,eACI,aAAc,CACd,gBACJ,CACA,qBACI,uBACJ,CAEA,yBACI,mBACI,cACJ,CACA,eACI,WACJ,CACJ",
-    "sources": [
-        "components/pages/Contact/Contact.css"
-    ],
-    "sourcesContent": [
-        "#contact {\r\n    top: 20vh;\r\n}\r\n#contact.off {\r\n    margin-left: 110vw;\r\n}\r\n#contact .content {\r\n    font-size: 22px;\r\n}\r\n.contact-caption {\r\n    font-size: 1rem;\r\n    color: #d1d1d1;\r\n    opacity: 0.8;\r\n}\r\n.contact-container {\r\n    font-size: 18px;\r\n}\r\n.contact-container > .d-flex {\r\n    margin: 5px;\r\n}\r\n.contact-icon {\r\n    position: relative;\r\n    top: 2px;\r\n    margin: 0px 5px;\r\n}\r\n.contact-value {\r\n    color: #6aafa1;\r\n    width: 60%;\r\n}\r\n.contact-label {\r\n    width: 150px;\r\n}\r\n#contact .link {\r\n    color: #6aafa1;\r\n    cursor: \"pointer\";\r\n}\r\n#contact .link:hover {\r\n    color: var(--theme-blue);\r\n}\r\n\r\n@media (max-width: 860px) {\r\n    .contact-container {\r\n        font-size: 14px;\r\n    }\r\n    .contact-label {\r\n        width: 100px;\r\n    }\r\n}\r\n"
-    ],
-    "names": [],
-    "sourceRoot": ""
-}
+{"version":3,"file":"static/css/237.fde2f408.chunk.css","mappings":"AAAA,SACI,QACJ,CACA,aACI,iBACJ,CACA,kBACI,cACJ,CACA,iBAEI,aAAc,CADd,cAAe,CAEf,UACJ,CACA,mBACI,cACJ,CACA,2BACI,UACJ,CACA,cAGI,YAAe,CAFf,iBAAkB,CAClB,OAEJ,CACA,eACI,aAAc,CACd,SACJ,CACA,eACI,WACJ,CACA,eACI,aAAc,CACd,gBACJ,CACA,qBACI,uBACJ,CAEA,yBACI,mBACI,cACJ,CACA,eACI,WACJ,CACJ","sources":["components/pages/Contact/Contact.css"],"sourcesContent":["#contact {\n    top: 20vh;\n}\n#contact.off {\n    margin-left: 110vw;\n}\n#contact .content {\n    font-size: 22px;\n}\n.contact-caption {\n    font-size: 1rem;\n    color: #d1d1d1;\n    opacity: 0.8;\n}\n.contact-container {\n    font-size: 18px;\n}\n.contact-container > .d-flex {\n    margin: 5px;\n}\n.contact-icon {\n    position: relative;\n    top: 2px;\n    margin: 0px 5px;\n}\n.contact-value {\n    color: #6aafa1;\n    width: 60%;\n}\n.contact-label {\n    width: 150px;\n}\n#contact .link {\n    color: #6aafa1;\n    cursor: \"pointer\";\n}\n#contact .link:hover {\n    color: var(--theme-blue);\n}\n\n@media (max-width: 860px) {\n    .contact-container {\n        font-size: 14px;\n    }\n    .contact-label {\n        width: 100px;\n    }\n}\n"],"names":[],"sourceRoot":""}
